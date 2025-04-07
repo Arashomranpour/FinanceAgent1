@@ -5,3 +5,4 @@ serpapi
 yfinance
 groq
 duckduckgo-search
+tavily-python
