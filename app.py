@@ -15,8 +15,11 @@ with st.sidebar:
         [
             "deepseek-r1-distill-llama-70b",
             "llama-3.3-70b-versatile",
-            "qwen-2.5-32b",
+            "llama3-70b-8192",
+            "llama-3.1-8b-instant",
             "gemma2-9b-it",
+            "qwen-2.5-32b",
+            "allam-2-7b",
         ],
     )
     Serpi_api = st.text_input("🔍 Enter Your Serpi API Key", type="password")
