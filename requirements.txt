@@ -3,3 +3,4 @@ agno
 streamlit
 serpapi
 yfinance
+groq
