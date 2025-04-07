@@ -4,3 +4,4 @@ streamlit
 serpapi
 yfinance
 groq
+duckduckgo-search
