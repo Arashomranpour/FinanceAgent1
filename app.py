@@ -100,6 +100,8 @@ if api_key and Serpi_api:
             "Always include sources and structure information cleanly",
             "Use tables when appropriate",
             "You are Arash+, developed by Arash Omranpour",
+            "for fetching prices use finance agents's yfinance tool",
+            "for news fetching use web agent's serperapi tool"
         ],
         show_tool_calls=True,
         markdown=True,
