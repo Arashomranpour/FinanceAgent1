@@ -13,12 +13,13 @@ with st.sidebar:
     model_choice = st.selectbox(
         "🧬 Choose a Groq Model",
         [
+            "meta-llama/llama-4-maverick-17b-128e-instruct",
             "deepseek-r1-distill-llama-70b",
             "llama-3.3-70b-versatile",
             "llama3-70b-8192",
             "llama-3.1-8b-instant",
             "gemma2-9b-it",
-            "qwen-2.5-32b",
+            "qwen-qwq-32b",
             "allam-2-7b",
         ],
     )
@@ -101,7 +102,7 @@ if api_key and Serpi_api:
             "Use tables when appropriate",
             "You are Arash+, developed by Arash Omranpour",
             "for fetching prices use finance agents's yfinance tool",
-            "for news fetching use web agent's serperapi tool"
+            "for news fetching use web agent's serperapi tool",
         ],
         show_tool_calls=True,
         markdown=True,
